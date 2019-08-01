@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/style.css" media="all" type="text/css">
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 		<link rel="stylesheet" media="screen" href="assets/css/particles.css">
 		<link rel="stylesheet" href="assets/css/Footer.css">
 		
@@ -47,8 +47,7 @@
 	
 	<body id="page-top">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
+			<div class="navbar-header">
 				<a class="navbar-brand" href="https://dreamlifegames.com"><img src="assets/images/logo.png" class="HomeLogo"></img>DreamLife-Games</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -82,7 +81,7 @@
 						</li>
 					</ul>
 					
-					<ul class="nav navbar-nav navbar-right">
+					<ul class="navbar-nav navbar-right">
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle Home" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-language"></i> Language</a>
 							<div class="dropdown-menu bg-Network" aria-labelledby="navbarDropdown">
@@ -92,7 +91,6 @@
 						</li>
 					</ul>
 				</div>
-			</div>
 		</nav>
 		
 		<section id="about" class="aboutSection">
@@ -133,7 +131,7 @@
 		</section>
 		
 		<section id="footer" class="footerSection">
-		<footer id="myFooter">
+		<footer id="myFooter" class="bg-dark">
 			<div class="container bg-dark">
 				<div class="row">
 					<div class="col-sm-3 myCols">
@@ -182,8 +180,9 @@
 		</section>
 		
 		<!-- Bootstrap core JavaScript -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		
 		<!-- Scrolling Nav JavaScript -->
 		<script src="assets/js/jquery.easing.min.js"></script>
