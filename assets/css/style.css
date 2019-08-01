@@ -1,0 +1,180 @@
+/* Style-Reset: http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, output, ruby, section, summary, time, mark, audio, video { 
+    margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+}
+    
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, section { display: block;}
+body { line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+*, *:after, *:before {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* end style reset */
+ 
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 140%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+	background-image: url('../images/bg.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px;
+}
+a {
+	margin-right: 10px!important;
+	margin-left: 10px!important;
+}
+
+.dropdown-menu {
+	border: 3px solid rgba(0,0,0,.25)!important;
+}
+
+.dropdown-item {
+	width: auto!important;
+}
+
+.navbar-nav {
+	display:table-row!important;
+}
+
+.HomeLogo {
+	width: 40px;
+	height: 40px;
+}
+
+.HomeFont {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.Home {
+	font-size: 20px!important;
+	color: #fff!important;
+	text-decoration: none!important;
+	padding: 10px!important;
+	vertical-align:middle;
+}
+
+.Home:hover {
+	border-bottom: 6px solid red!important;
+	color: #fff!important;
+	font-weight: bold!important;
+	
+}
+
+.Language {
+	font-size: 15px!important;
+	color: #fff!important;
+	text-decoration: none!important;
+	vertical-align:middle;
+}
+
+.Language:hover {
+	border-bottom: 3px solid red!important;
+	color: #fff!important;
+	font-weight: bold!important;
+	
+}
+
+.About{
+	background-color: rgba(71, 71, 71, 0.7);
+	border-radius: 25px;
+	display: inline-block;
+	position: absolute;
+	color: #fff;
+	text-align: left;
+}
+
+.HomeORP {
+	background-color: rgba(71, 71, 71, 0);
+	border-radius: 25px;
+	position: absolute;
+	height: auto!important;
+	color: #fff;
+	text-align: center;
+}
+
+.AboutHeadline {
+	font-size: 40px;
+	margin: 20px;
+}
+
+.AboutDescription {
+	font-size: 18px;
+	margin: 20px;
+}
+
+.aboutContainer {
+	margin-top: 10%;
+	width: 100%!important;
+	height: 100%;
+	display: block;
+	position: absoulte;
+}
+
+.aboutRow {
+	width: 100%!important;
+}
+
+.HomeORPHeadline {
+	font-size: 40px;
+	margin: 20px;
+}
+
+.playLeft {
+	float: left;
+}
+
+.playRight {
+	float: right;
+}
+
+.bgTransparent{
+	background-color: rgba(71, 71, 71, 0.7)!important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+	background-color: rgba(71, 71, 71, 0.7)!important;
+}
+
+.bg-Network {
+	background-image: url('../images/worldNetwork.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.aboutSection {
+	min-height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
