@@ -22,7 +22,12 @@ table {border-collapse: collapse; border-spacing: 0;}
 }
 
 /* end style reset */
- 
+
+body,
+html {
+    width: 100%;
+	height: 100%;
+}
 
 body {
     font-family: 'Arial', sans-serif;
@@ -174,7 +179,6 @@ a {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
